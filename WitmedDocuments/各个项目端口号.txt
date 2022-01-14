@@ -1,0 +1,11 @@
+witmedplatform-registry（注册中心）：9999
+
+witmedPlatform-system-consumer（系统消费者）：11111
+witmedPlatform-emr-consumer（员工消费者）：21111
+witmedPlatform-patient-consumer（病人消费者）：31111
+witmedPlatform-clinic-consumer（病历消费者）：41111
+
+witmedPlatform-system-provider（系统生产者）：11199
+witmedPlatform-emr-provider（员工生产者）：21199
+witmedPlatform-patient-provider（病人生产者）：31199
+witmedPlatform-clinic-provider（病历生产者）：41199
