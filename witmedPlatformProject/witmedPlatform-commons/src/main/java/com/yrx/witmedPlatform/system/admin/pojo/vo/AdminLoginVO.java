@@ -18,6 +18,8 @@ public class AdminLoginVO implements Serializable {
 	@NotBlank(message = "未填写登录密码")
 	@Pattern(regexp = "[A-Za-z0-9_@#]{6,}", message = "登录密码格式错误")
 	private String password;                        // 用户登录密码
+	private String token;                           //登陆成功后Token信息
+	private AdminVO adminVO;                        //登录成功后的用户信息
 
 	public String getCellphone() {
 		return cellphone;
@@ -33,5 +35,21 @@ public class AdminLoginVO implements Serializable {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public AdminVO getAdminVO() {
+		return adminVO;
+	}
+
+	public void setAdminVO(AdminVO adminVO) {
+		this.adminVO = adminVO;
 	}
 }
