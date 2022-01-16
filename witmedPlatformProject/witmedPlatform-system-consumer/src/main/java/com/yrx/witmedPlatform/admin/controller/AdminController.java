@@ -73,8 +73,10 @@ public class AdminController extends BaseController {
 			// 成功生成 Token，将该信息存储到 Redis 中
 			if (redisUtil.saveToRedis(token, adminVO, BaseConstants.EXPIRE_AUTH_SEC)) {
 				// 存储成功，将信息设定到响应消息头对应位置
-				response.setHeader(BaseConstants.TOKEN_KEY, token);
-				return ResponseVO.success("登录成功", adminVO);
+				// response.setHeader(BaseConstants.TOKEN_KEY, token);
+				adminLoginVO.setToken(token);
+				adminLoginVO.setAdminVO(adminVO);
+				return ResponseVO.success("登录成功", adminLoginVO);
 			}
 		}
 		return ResponseVO.exception(new Exception("登录失败"));
