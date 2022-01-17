@@ -1,0 +1,229 @@
+2022-01-17  10:32:19.243 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-01-17  10:32:19.277 [restartedMain] INFO  com.yrx.witmedPlatform.SystemProviderStarter - Starting SystemProviderStarter using Java 1.8.0_301 on DESKTOP-J2G1Q7P with PID 8516 (D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject\witmedPlatform-system-provider\target\classes started by Lenovo in D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject)
+2022-01-17  10:32:19.278 [restartedMain] INFO  com.yrx.witmedPlatform.SystemProviderStarter - The following profiles are active: data,commons
+2022-01-17  10:32:19.402 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-17  10:32:19.403 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-17  10:32:21.126 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-17  10:32:21.131 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-17  10:32:21.195 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2022-01-17  10:32:21.958 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=a4c1186b-6c77-3fb1-b3ea-615b0fb5bf1b
+2022-01-17  10:32:23.565 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11199 (http)
+2022-01-17  10:32:23.598 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11199"]
+2022-01-17  10:32:23.599 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-17  10:32:23.600 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-17  10:32:23.869 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-17  10:32:23.869 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4465 ms
+2022-01-17  10:32:24.129 [restartedMain] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-01-17  10:32:24.794 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-01-17  10:32:31.992 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-01-17  10:32:32.219 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-17  10:32:33.595 [restartedMain] INFO  o.s.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-01-17  10:32:36.442 [restartedMain] WARN  o.s.c.l.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-17  10:32:36.649 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-01-17  10:32:36.724 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-01-17  10:32:36.737 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-01-17  10:32:36.798 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-01-17  10:32:36.799 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-01-17  10:32:39.793 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-01-17  10:32:39.804 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-01-17  10:32:39.813 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-17  10:32:39.842 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1642386759838 with initial instances count: 0
+2022-01-17  10:32:39.847 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application WITMEDPLATFORM-SYSTEM-PROVIDER with eureka with status UP
+2022-01-17  10:32:39.849 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1642386759849, current=UP, previous=STARTING]
+2022-01-17  10:32:39.858 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-PROVIDER/DESKTOP-J2G1Q7P:witmedPlatform-system-provider:11199: registering service...
+2022-01-17  10:32:39.860 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11199"]
+2022-01-17  10:32:39.916 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11199 (http) with context path ''
+2022-01-17  10:32:39.918 [restartedMain] INFO  o.s.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 11199
+2022-01-17  10:32:40.457 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-PROVIDER/DESKTOP-J2G1Q7P:witmedPlatform-system-provider:11199 - registration status: 204
+2022-01-17  10:32:41.192 [restartedMain] INFO  com.yrx.witmedPlatform.SystemProviderStarter - Started SystemProviderStarter in 23.778 seconds (JVM running for 26.276)
+2022-01-17  10:33:09.815 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2022-01-17  10:33:09.816 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-01-17  10:33:09.844 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-01-17  10:37:36.803 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:41:07.799 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-01-17  10:41:07.848 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - Starting SystemConsumerStarter using Java 1.8.0_301 on DESKTOP-J2G1Q7P with PID 24752 (D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject\witmedPlatform-system-consumer\target\classes started by Lenovo in D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject)
+2022-01-17  10:41:07.850 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - The following profiles are active: commons
+2022-01-17  10:41:07.976 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-17  10:41:07.977 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-17  10:41:09.981 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-17  10:41:09.986 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-17  10:41:10.036 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2022-01-17  10:41:10.721 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=144bdffa-33e2-3d6f-a2ed-4684516227ec
+2022-01-17  10:41:12.280 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11111 (http)
+2022-01-17  10:41:12.306 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11111"]
+2022-01-17  10:41:12.307 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-17  10:41:12.308 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-17  10:41:12.618 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-17  10:41:12.619 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4641 ms
+2022-01-17  10:41:13.173 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-17  10:41:13.321 [restartedMain] INFO  org.springframework.cloud.openfeign.FeignClientFactoryBean - For 'witmedPlatform-system-provider' URL not provided. Will try picking an instance via load-balancing.
+2022-01-17  10:41:15.262 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-01-17  10:41:16.799 [restartedMain] INFO  o.s.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-01-17  10:41:18.187 [restartedMain] WARN  o.s.c.l.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-17  10:41:18.351 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-01-17  10:41:18.446 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-01-17  10:41:18.457 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:41:18.521 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-01-17  10:41:18.521 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-01-17  10:41:18.521 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-01-17  10:41:18.521 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-01-17  10:41:18.521 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-01-17  10:41:18.522 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-01-17  10:41:18.522 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-01-17  10:41:20.361 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-01-17  10:41:20.368 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-01-17  10:41:20.374 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-17  10:41:20.385 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1642387280383 with initial instances count: 1
+2022-01-17  10:41:20.389 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application WITMEDPLATFORM-SYSTEM-CONSUMER with eureka with status UP
+2022-01-17  10:41:20.391 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1642387280391, current=UP, previous=STARTING]
+2022-01-17  10:41:20.395 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111: registering service...
+2022-01-17  10:41:20.396 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11111"]
+2022-01-17  10:41:20.437 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11111 (http) with context path ''
+2022-01-17  10:41:20.439 [restartedMain] INFO  o.s.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 11111
+2022-01-17  10:41:20.499 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111 - registration status: 204
+2022-01-17  10:41:21.679 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - Started SystemConsumerStarter in 16.671 seconds (JVM running for 21.973)
+2022-01-17  10:42:36.817 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:46:18.535 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:47:36.829 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:51:18.547 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:52:36.830 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:56:18.562 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:57:36.844 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  10:57:44.026 [http-nio-11111-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-17  10:57:44.027 [http-nio-11111-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-17  10:57:44.033 [http-nio-11111-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2022-01-17  10:57:44.974 [http-nio-11199-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-17  10:57:44.975 [http-nio-11199-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-17  10:57:44.978 [http-nio-11199-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-01-17  11:01:18.580 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:02:36.859 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:06:18.591 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:07:36.865 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:11:18.608 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:12:07.110 [http-nio-11199-exec-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/witmedplatform_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 66817
+2022-01-17  11:12:36.869 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:16:18.623 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:17:36.876 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:21:18.627 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:22:36.887 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:25:16.878 [http-nio-11199-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/witmedplatform_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 92820
+2022-01-17  11:26:18.636 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:27:36.888 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:30:57.973 [SpringApplicationShutdownHook] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Unregistering application WITMEDPLATFORM-SYSTEM-CONSUMER with eureka with status DOWN
+2022-01-17  11:30:57.975 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1642390257975, current=DOWN, previous=UP]
+2022-01-17  11:30:57.977 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111: registering service...
+2022-01-17  11:30:58.030 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111 - registration status: 204
+2022-01-17  11:30:59.119 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2022-01-17  11:31:02.135 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2022-01-17  11:31:02.249 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111 - deregister  status: 200
+2022-01-17  11:31:02.264 [SpringApplicationShutdownHook] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2022-01-17  11:31:14.381 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2022-01-17  11:31:14.418 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - Starting SystemConsumerStarter using Java 1.8.0_301 on DESKTOP-J2G1Q7P with PID 24288 (D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject\witmedPlatform-system-consumer\target\classes started by Lenovo in D:\JetBrains\WitmedPlatformProjectRepos\witmedPlatformProject)
+2022-01-17  11:31:14.419 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - The following profiles are active: commons
+2022-01-17  11:31:14.523 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-17  11:31:14.524 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-17  11:31:16.068 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-17  11:31:16.072 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-17  11:31:16.110 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2022-01-17  11:31:16.574 [restartedMain] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=144bdffa-33e2-3d6f-a2ed-4684516227ec
+2022-01-17  11:31:17.562 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 11111 (http)
+2022-01-17  11:31:17.583 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-11111"]
+2022-01-17  11:31:17.584 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-17  11:31:17.585 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-17  11:31:17.813 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-17  11:31:17.813 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3287 ms
+2022-01-17  11:31:18.107 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2022-01-17  11:31:18.182 [restartedMain] INFO  org.springframework.cloud.openfeign.FeignClientFactoryBean - For 'witmedPlatform-system-provider' URL not provided. Will try picking an instance via load-balancing.
+2022-01-17  11:31:19.476 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2022-01-17  11:31:20.435 [restartedMain] INFO  o.s.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2022-01-17  11:31:21.356 [restartedMain] WARN  o.s.c.l.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-01-17  11:31:21.454 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2022-01-17  11:31:21.511 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2022-01-17  11:31:21.517 [restartedMain] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:31:21.551 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2022-01-17  11:31:21.551 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2022-01-17  11:31:21.551 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2022-01-17  11:31:21.551 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2022-01-17  11:31:21.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2022-01-17  11:31:21.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2022-01-17  11:31:21.552 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2022-01-17  11:31:22.731 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2022-01-17  11:31:22.735 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2022-01-17  11:31:22.738 [restartedMain] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-01-17  11:31:22.744 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1642390282742 with initial instances count: 2
+2022-01-17  11:31:22.745 [restartedMain] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application WITMEDPLATFORM-SYSTEM-CONSUMER with eureka with status UP
+2022-01-17  11:31:22.745 [restartedMain] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1642390282745, current=UP, previous=STARTING]
+2022-01-17  11:31:22.749 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-11111"]
+2022-01-17  11:31:22.749 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111: registering service...
+2022-01-17  11:31:22.777 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 11111 (http) with context path ''
+2022-01-17  11:31:22.779 [restartedMain] INFO  o.s.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 11111
+2022-01-17  11:31:22.825 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_WITMEDPLATFORM-SYSTEM-CONSUMER/DESKTOP-J2G1Q7P:witmedPlatform-system-consumer:11111 - registration status: 204
+2022-01-17  11:31:23.562 [restartedMain] INFO  com.yrx.witmedPlatform.SystemConsumerStarter - Started SystemConsumerStarter in 11.001 seconds (JVM running for 13.152)
+2022-01-17  11:32:04.969 [http-nio-11111-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-17  11:32:04.970 [http-nio-11111-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-17  11:32:04.972 [http-nio-11111-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-01-17  11:32:36.900 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:36:21.560 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:37:36.914 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:41:21.577 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:42:36.921 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:46:21.588 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:47:36.929 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:51:21.595 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:52:36.942 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:56:21.601 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  11:57:36.949 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:01:21.610 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:02:36.959 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:06:21.618 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:07:36.973 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:11:21.622 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:12:36.983 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:16:21.634 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:17:36.992 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:21:21.639 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:22:37.006 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:26:21.648 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:27:37.007 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:31:21.660 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:32:37.017 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:36:21.668 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:37:37.027 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:41:21.675 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:42:37.036 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:46:21.685 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:47:37.050 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:51:21.688 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:52:37.063 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:56:21.690 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  12:57:37.077 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  13:01:21.702 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  13:58:30.281 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:02:14.863 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:03:30.287 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:07:14.867 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:08:30.299 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:12:14.873 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:13:30.315 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:17:14.886 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:18:30.316 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:22:14.890 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:23:30.320 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:27:14.894 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:28:30.331 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:32:14.897 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:33:30.342 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:37:14.903 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:38:30.364 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:42:14.917 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2022-01-17  14:43:30.379 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
