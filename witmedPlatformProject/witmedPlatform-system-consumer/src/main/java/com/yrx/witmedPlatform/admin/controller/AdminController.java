@@ -81,4 +81,19 @@ public class AdminController extends BaseController {
 		}
 		return ResponseVO.exception(new Exception("登录失败"));
 	}
+
+	/**
+	 * 根据token获得当前登录用户信息
+	 * @param token
+	 * @return
+	 * @throws Exception
+	 */
+	@RequestMapping("/info")
+	public  ResponseVO getLoginUserByToken(String token) throws Exception{
+		AdminVO adminVO  = (AdminVO) redisUtil.findFromRedis(token, AdminVO.class);
+		if(adminVO ==null){
+			return ResponseVO.error("获取失败");
+		}
+		return ResponseVO.success("当前用户获取成功",adminVO);
+	}
 }
