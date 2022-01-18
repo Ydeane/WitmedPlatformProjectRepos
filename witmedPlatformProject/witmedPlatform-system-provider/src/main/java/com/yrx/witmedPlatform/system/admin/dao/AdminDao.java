@@ -1,7 +1,7 @@
 package com.yrx.witmedPlatform.system.admin.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.yrx.witmedPlatform.entity.system.admin.Admin;
+import com.yrx.witmedPlatform.entity.system.admin.pojo.Admin;
 import org.springframework.stereotype.Repository;
 
 /**

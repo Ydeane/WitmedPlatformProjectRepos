@@ -1,4 +1,4 @@
-package com.yrx.witmedPlatform.entity.system.admin;
+package com.yrx.witmedPlatform.entity.system.admin.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -20,8 +20,8 @@ import java.util.Date;
 @TableName("sys_role")
 public class Role extends BaseEntity {
 private static final long serialVersionUID = 1L;
-		@TableId(type = IdType.NONE)
-		private Integer id;                        // 主键
+			@TableId(type = IdType.NONE)
+			private Integer id;                        // 主键
 	        @TableField(value = "code")
 	        private String code;                        // 角色编码
 	        @TableField(value = "name")

@@ -1,4 +1,4 @@
-package com.yrx.witmedPlatform.entity.system.admin;
+package com.yrx.witmedPlatform.entity.system.admin.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -42,14 +42,5 @@ private static final long serialVersionUID = 1L;
 	        private String education;                        // 学历
 	        @TableField(value = "techPostRank")
 	        private String techPostRank;                        // 服务者专业技术职务等级
-	        @TableField(value = "status")
-	        private String status;                        // 系统状态：0-禁用，1-启用
-	        @TableField(value = "createdBy")
-	        private String createdBy;                        // 创建人
-	        @TableField(value = "createdTime")
-	        private Date createdTime;                        // 创建时间
-	        @TableField(value = "modifiedBy")
-	        private String modifiedBy;                        // 修改人
-	        @TableField(value = "modifiedTime")
-	        private Date modifiedTime;                        // 修改时间
+
 }

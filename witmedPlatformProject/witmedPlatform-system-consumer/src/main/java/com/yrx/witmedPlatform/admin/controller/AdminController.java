@@ -9,13 +9,17 @@ import com.yrx.witmedPlatform.base.util.RedisUtil;
 import com.yrx.witmedPlatform.base.util.TokenUtil;
 import com.yrx.witmedPlatform.system.admin.pojo.vo.AdminLoginVO;
 import com.yrx.witmedPlatform.system.admin.pojo.vo.AdminVO;
+import com.yrx.witmedPlatform.system.admin.pojo.vo.MenuVO;
+import com.yrx.witmedPlatform.system.admin.pojo.vo.RoleVO;
 import com.yrx.witmedPlatform.system.admin.transport.AdminTransport;
+import com.yrx.witmedPlatform.system.admin.transport.MenuTransport;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -31,6 +35,8 @@ import java.util.Map;
 public class AdminController extends BaseController {
 	@Autowired
 	private AdminTransport adminTransport;
+	@Autowired
+	private MenuTransport menuTransport;
 	@Autowired
 	private RedisUtil redisUtil;
 
@@ -88,12 +94,20 @@ public class AdminController extends BaseController {
 	 * @return
 	 * @throws Exception
 	 */
-	@RequestMapping("/info")
+	@GetMapping("/info")
 	public  ResponseVO getLoginUserByToken(String token) throws Exception{
-		AdminVO adminVO  = (AdminVO) redisUtil.findFromRedis(token, AdminVO.class);
-		if(adminVO ==null){
-			return ResponseVO.error("获取失败");
+
+		// 以 token 作为 key，从 Redis 中获取该用户信息即可
+		AdminVO adminVO = (AdminVO) redisUtil.findFromRedis(token, AdminVO.class);
+		if (adminVO != null) {
+			// 根据用户信息获得该用户的角色信息
+			RoleVO roleVO = adminVO.getRoleVO();
+			// 根据角色信息查询该角色所对应的功能菜单集合，并且形成树形结构
+			List<MenuVO> menuVOList = menuTransport.getMenuVOListByRoleVO(roleVO);
+			adminVO.setMenuVOList(menuVOList);
+			// 根据 Token 从 Redis 中成功获得当前登录用户信息
+			return ResponseVO.success("获取当前登录用户成功", adminVO);
 		}
-		return ResponseVO.success("当前用户获取成功",adminVO);
+		return ResponseVO.error("未获得当前登录用户信息");
 	}
 }

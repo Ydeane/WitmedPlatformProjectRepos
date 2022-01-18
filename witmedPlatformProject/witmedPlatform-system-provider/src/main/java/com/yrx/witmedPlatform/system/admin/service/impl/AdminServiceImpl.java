@@ -1,8 +1,8 @@
 package com.yrx.witmedPlatform.system.admin.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.yrx.witmedPlatform.base.util.PojoMapper;
-import com.yrx.witmedPlatform.entity.system.admin.Admin;
+import com.yrx.witmedPlatform.entity.system.admin.util.PojoMapper;
+import com.yrx.witmedPlatform.entity.system.admin.pojo.Admin;
 import com.yrx.witmedPlatform.system.admin.dao.AdminDao;
 import com.yrx.witmedPlatform.system.admin.pojo.vo.AdminVO;
 import com.yrx.witmedPlatform.system.admin.service.AdminService;

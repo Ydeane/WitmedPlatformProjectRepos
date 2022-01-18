@@ -34,5 +34,5 @@ spring:
         exclusions: /druid/*, *.js, *.gif, *.jpg, *.png, *.css, *.ico
 ### 配置 MyBatis 信息
 mybatis:
-  mapper-locations: classpath:/mapper/*/*.Mapper.xml
-  type-aliases-package: com.yrx.witmedPlatform.*.pojo.entity
+  mapper-locations: classpath:/mapper/*/*/*.Mapper.xml
+  type-aliases-package: com.yrx.witmedPlatform.*.*.*.pojo
